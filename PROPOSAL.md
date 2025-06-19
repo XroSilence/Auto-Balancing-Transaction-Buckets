@@ -98,9 +98,9 @@ Traditional MEV relies on:
 3. **Information**: Knowing transaction details before execution
 
 Our system eliminates all three:
-1. **No Selection**: All buckets appear economically identical
-2. **No Ordering**: Simultaneous bucket processing
-3. **No Information**: Transaction details hidden until settlement
+1. **No Selection**: All buckets are designed to be economically indistinguishable—no target looks more profitable than another.
+2. **No Ordering**: Buckets are processed as atomic units, removing any exploitable transaction ordering within the same interval.
+3. **No Exploitable Information**: While transaction content remains visible, profitability signals are effectively neutralized prior to settlement, making mempool visibility non-extractive.
 
 ### Cost-Benefit Analysis
 
