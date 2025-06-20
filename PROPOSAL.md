@@ -25,7 +25,7 @@ These issues stem from the transparency of pending transactions combined with th
 3. Distributes transactions into perfectly balanced buckets
 4. Processes all buckets simultaneously
 
-**Economic Uniformity**: All buckets within each interval have identical total gas costs, making them indistinguishable to MEV extractors.
+**Economic Uniformity**: All buckets within each interval are structured so that total gas usage is balanced and transaction ordering within buckets provides no economic advantage—rendering MEV extraction unprofitable, even though transaction data remains visible.
 
 ### Algorithm Specification
 
